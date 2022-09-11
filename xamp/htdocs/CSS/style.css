@@ -1,0 +1,36 @@
+:root {
+  margin: 0;
+  padding: auto;
+  background-color: #EDEDED;
+}
+
+.container {
+  box-sizing: border-box;
+  justify-content: center;
+}
+img {
+  width: 100px;
+  height: 85px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+.card {
+  box-shadow: 0px 5px 10px 1px black;
+  padding: 10px;
+  text-align: center;
+  background-color: #512FA8;
+  color: whitesmoke;
+  display: flex;
+  margin: 25px;
+  border-radius: 5px;
+}
+.card-body {
+  text-align: center;
+  font-size: small;
+  padding: auto;
+  margin: auto;
+  font-family: sans-serif;
+}
